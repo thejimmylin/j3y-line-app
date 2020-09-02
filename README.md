@@ -1,6 +1,7 @@
 # j3y-line-app
 
-A simple line-bot practice project, based on Line **[Messaging API](https://developers.line.biz/zh-hant/docs/messaging-api/overview/)**, and its webhook is powered by **Django** on **Heroku**.
+A simple line-bot practice project, based on Line **[Messaging API](https://developers.line.biz/zh-hant/docs/messaging-api/overview/)**.
+Its webhook is powered by **Django** hosted on **Heroku**.
 
 ## Overview
 
