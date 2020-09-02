@@ -16,11 +16,9 @@ j3ycode is a line bot, learning from your teaching.
 <br>
 <br>
 
-> You don't want to block it.
+> And you don't want to block it.
 
 <img src="https://github.com/j3ygithub/j3y-line-app/blob/master/docs/images/screenshot4.jpg" width="30%">
-<br>
-<br>
 
 ## Meta
 
