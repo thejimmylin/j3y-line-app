@@ -9,3 +9,5 @@ db.sqlite3
 **/migrations/*
 !**/migrations/__init__.py
 
+# Secrets
+secrets.py

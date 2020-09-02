@@ -4,13 +4,15 @@ from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
 from linebot.models import MessageEvent, FollowEvent, UnfollowEvent, TextSendMessage
 from .models import QNA, Follower
+from .secrets import LINE_CHANNEL_ACCESS_TOKEN, LINE_CHANNEL_SECRET
 
 
 # This creates a line bot instance mapped to your line channel.
-LINE_CHANNEL_ACCESS_TOKEN = 'xeO+6MXpdUrllz8dLEjIuNfET1Pf7jmMDb6vzTkQVpcz/37Bi9xARkhbe3yFqlgOqsjaWXLT5dkvLZkLjMwAUFxypjxCKh1/iEY6uKIJfKr22ZAHrKIyvPOPuhdy6GLPiLjjB4lV60v/eeGlt9KovgdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'cdfd566a2c3a81568dbf8b609eeeb955'
+LINE_CHANNEL_ACCESS_TOKEN = LINE_CHANNEL_ACCESS_TOKEN
+LINE_CHANNEL_SECRET = LINE_CHANNEL_SECRET
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(LINE_CHANNEL_SECRET)
+
 
 @csrf_exempt
 def callback(request):
