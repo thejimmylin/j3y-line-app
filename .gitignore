@@ -1,9 +1,11 @@
-  
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
 # Mac things
 .DS_Store
 
-# VSCode things
-.vscode/settings.json
+# Django things
+db.sqlite3
+**/migrations/*
+!**/migrations/__init__.py
+
